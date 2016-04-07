@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="rage7.greendaosample.MainActivity">
+
+    <EditText
+        android:id="@+id/modelName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="Model Name" />
+
+    <EditText
+        android:id="@+id/modelLinkRewrite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="Model Link rewrite" />
+
+    <EditText
+        android:id="@+id/popularity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="Popularity" />
+
+    <EditText
+        android:id="@+id/exShowroomPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="Ex Showroom Price" />
+
+    <EditText
+        android:id="@+id/engine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="Engine capacity" />
+
+    <Button
+        android:id="@+id/btn_addBike"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@color/colorAccent"
+        android:onClick="addBike"
+        android:text="Add"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_showList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@color/colorAccent"
+        android:onClick="showList"
+        android:text="show List"
+        android:textColor="@android:color/white" />
+    <Button
+        android:id="@+id/btn_clearData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@color/colorAccent"
+        android:onClick="clearData"
+        android:text="clear data"
+        android:textColor="@android:color/white" />
+</LinearLayout>
